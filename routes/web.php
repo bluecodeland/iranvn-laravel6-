@@ -12,9 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/git', function () {
     return view('git');
 });
+
+// Route::get('/{fa}', function ($locale) {
+//     App::setLocale($locale);
+//     return view('index');
+
+
+//     //
+// });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
