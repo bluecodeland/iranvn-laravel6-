@@ -40,7 +40,16 @@
 	<script src="js/respond.min.js"></script>
     <![endif]-->
     {{-- google --}}
-    <meta name="google-site-verification" content="E5c0y_lgHChVF0Qzcby39di_NrESJ9ikezcnDNitH58" />
+        <meta name="google-site-verification" content="E5c0y_lgHChVF0Qzcby39di_NrESJ9ikezcnDNitH58" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25404090-6"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-25404090-6');
+        </script>
 </head>
 <body>
     <div id="app" class="r">
