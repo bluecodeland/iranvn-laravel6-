@@ -53,10 +53,10 @@
 </head>
 <body>
     <div id="app" class="r">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm stickey">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                   <h3> <strong>{{ config('app.name', 'Laravel') }}</strong></h3>
+                   <h4> <img src="/images/logo.png" alt="iranvn.ir" width="40" class="mr-2"><strong>{{ config('app.name', 'Laravel') }}</strong></h4>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
