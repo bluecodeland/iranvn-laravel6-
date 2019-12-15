@@ -119,6 +119,7 @@
         <main class="py-4">
             @yield('content')
         </main>
+        <img src="/images/header-bg.jpg" alt="" class="ma w-100 h-100">
     </div>
         <!-- Copyright -->
         <div class="text-center purple py-1 fixed-bottom">
