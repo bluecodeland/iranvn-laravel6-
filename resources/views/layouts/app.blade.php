@@ -120,7 +120,17 @@
             @yield('content')
         </main>
     </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright
+          <a href="https://iranvn.ir"> Iranvn.ir</a>
 
+
+        </div>
+        <div class="footer-copyright text-center py-3">
+            <i class="socicon-bale"></i>
+          <a href="https://www.instagram.com/iranvn.ir/"><i class="socicon-instagram"></i></a>
+        </div>
+        <!-- Copyright -->
 
 </body>
 </html>
