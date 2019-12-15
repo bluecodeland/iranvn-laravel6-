@@ -1,4 +1,54 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://cdn.rawgit.com/rastikerdar/sahel-font/v3.3.0/dist/font-face.css);@import url(https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://cdn.rawgit.com/rastikerdar/sahel-font/v3.3.0/dist/font-face.css);@import url(https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh);a {
+    color: #3490dc;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  a:hover {
+    color: #1d68a7;
+    text-decoration: none !important;
+  }
+
+  a:not([href]) {
+    color: inherit;
+    text-decoration: none !important;
+  }
+
+  a:not([href]):hover {
+    color: inherit;
+    text-decoration: none !important;
+  }
+
+
+.fff {color:#fff !important;}
+.fff a {color:#fff !important;}
+.fff i {color:#fff !important; text-decoration: none !important;}
+
+.fff a:hover {color:black !important; text-decoration:none !important ; -webkit-text-decoration-style: none !important; text-decoration-style: none !important;}
+.fff i:hover {color:black !important; text-decoration:none !important ; -webkit-text-decoration-style: none !important; text-decoration-style: none !important;}
+
+
+.watermelon{
+    color:#ff4757 !important
+
+}
+.gray{
+    background: #ff0084;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-gradient(linear, left top, right top, from(#33001b), to(#ff0084));
+background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.purple {
+    background: #43cea2;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-gradient(linear, left top, right top, from(#185a9d), to(#43cea2));
+background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.ma {
+    margin-top: -25px;
+}
+@charset "UTF-8";
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)

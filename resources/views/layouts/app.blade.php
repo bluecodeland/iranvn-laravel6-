@@ -52,14 +52,14 @@
         </script>
 </head>
 <body>
-    <div id="app" class="r">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm stickey">
+    <div id="app">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm purple fff">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                    <h4> <img src="/images/logo.png" alt="iranvn.ir" width="40" class="mr-2"><strong>{{ config('app.name', 'Laravel') }}</strong></h4>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon fff"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -121,14 +121,10 @@
         </main>
     </div>
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2019 Copyright
-          <a href="https://iranvn.ir"> Iranvn.ir</a>
-
-
-        </div>
-        <div class="footer-copyright text-center py-3">
-            <i class="socicon-bale"></i>
-          <a href="https://www.instagram.com/iranvn.ir/"><i class="socicon-instagram"></i></a>
+        <div class="text-center purple py-1 fixed-bottom">
+            <div class="text-center py-2 fff">© 2019 Copyright<a href="https://iranvn.ir"> Iranvn.ir</a></div>
+            <a href="https://ble.im/iranvn" class="fff p-2"><i class="socicon-bale"></i></a>
+            <a href="https://www.instagram.com/iranvn.ir/" class="fff p-2"><i class="socicon-instagram"></i></a>
         </div>
         <!-- Copyright -->
 
