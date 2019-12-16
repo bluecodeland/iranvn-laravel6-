@@ -1,4 +1,15 @@
-a {
+/* margins */
+.ma {
+    margin-top: -25px;
+}
+.ma-line {
+    margin-top: -10px;
+    letter-spacing: 0.2em;
+}
+
+
+  /* colors */
+  a {
     color: #3490dc;
     text-decoration: none;
     background-color: transparent;
@@ -24,12 +35,12 @@ a {
 .fff a {color:#fff !important;}
 .fff i {color:#fff !important; text-decoration: none !important;}
 
-.fff a:hover {color:black !important; text-decoration:none !important ; text-decoration-style: none !important;}
-.fff i:hover {color:black !important; text-decoration:none !important ; text-decoration-style: none !important;}
+.fff a:hover {color:#2ed573 !important; text-decoration:none !important ; text-decoration-style: none !important;}
+.fff i:hover {color:#2ed573 !important; text-decoration:none !important ; text-decoration-style: none !important;}
 
 
 .watermelon{
-    color:#ff4757 !important
+    background-color: #ff4757 !important;
 
 }
 .gray{
@@ -51,7 +62,9 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
 
 }
 
-
-.ma {
-    margin-top: -25px;
-}
+.black{background-color: black;}
+.pblue{background-color: #2f3542 !important;}
+.pgreen{background-color: #2ed573 !important;}
+.fontpgreen{color: #2ed573 !important;}
+.fontwatermelon{color:#ff4757  !important;}
+.fontblack{color:black !important;}

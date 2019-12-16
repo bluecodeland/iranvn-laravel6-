@@ -2,12 +2,12 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center mt-md-5 pt-md-5">
-        <div class="col-md-8">
-            <div class="card blue-g fff">
-                <div class="card-header text-right">ثبت نام</div>
+    <div class="row justify-content-center mt-md-5 pt-md-5 ">
+        <div class="col-md-8 ">
+            <div class="card pblue fff">
+                <div class="card-header text-right watermelon">ثبت نام</div>
 
-                <div class="card-body offset-md-2">
+                <div class="card-body offset-md-2 ">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
@@ -67,7 +67,7 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn watermelon fff px-5">
                                    ثبت
                                 </button>
                             </div>

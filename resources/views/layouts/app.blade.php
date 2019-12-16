@@ -33,6 +33,8 @@
 
     <!-- Icon font -->
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
+
     <!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -53,15 +55,16 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light shadow-sm purple fff">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm pblue fff">
             <div class="container">
+                <div>
                 <a class="navbar-brand" href="{{ url('/') }}">
-                   <h4> <img src="/images/logo.png" alt="iranvn.ir" width="40" class="mr-2"><strong>{{ config('app.name', 'Laravel') }}</strong></h4>
+                   <h4><span class="fas fa-cloud pr-5 fontwatermelon"></span><strong class="mr-n3">{{ config('app.name', 'Laravel') }}</strong></h4>
                 </a>
+                <h5 class="pgreen fontblack p-1 pl-2 pr-0 ma-line rounded text-center"><small>Iran Virtual Network</small></h5></div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon fff"></span>
+                    <i class="fas fa-bars fff"></i>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
@@ -71,7 +74,7 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
 
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                     <a class="nav-link" href="#"> سرویس ها </a>
                             </li>
                             <li class="nav-item">
@@ -79,7 +82,7 @@
                             </li>
                             <li class="nav-item">
                                     <a class="nav-link" href="#"> بلاگ </a>
-                            </li>
+                            </li> --}}
 
 
                         <!-- Authentication Links -->
@@ -119,11 +122,10 @@
         <main class="py-4">
             @yield('content')
         </main>
-        <img src="/images/header-bg.jpg" alt="" class="ma w-100 h-100">
     </div>
         <!-- Copyright -->
-        <div class="text-center purple py-1 fixed-bottom">
-            <div class="text-center py-2 fff">© 2019 Copyright<a href="https://iranvn.ir"> Iranvn.ir</a></div>
+        <div class="text-center pblue py-1 fixed-bottom">
+            <div class="text-center py-2 fff">© 2019 Copyright<a href="https://iranvn.ir"> Iran Virtual Network</a></div>
             <a href="https://ble.im/iranvn" class="fff p-2"><i class="socicon-bale"></i></a>
             <a href="https://www.instagram.com/iranvn.ir/" class="fff p-2"><i class="socicon-instagram"></i></a>
         </div>
