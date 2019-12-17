@@ -30,7 +30,6 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
     <!-- Icon font -->
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
@@ -61,7 +60,7 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                    <h4><span class="fas fa-cloud pr-5 fontwatermelon"></span><strong class="mr-n3">{{ config('app.name', 'Laravel') }}</strong></h4>
                 </a>
-                <h5 class="pgreen fontblack p-1 pl-2 pr-0 ma-line rounded text-center"><small>Iran Virtual Network</small></h5></div>
+                <h5 class="pgreen fontblack p-1 pl-2 pr-0 ma-line rounded text-center animated fadeIn slow"><small>Iran Virtual Network</small></h5></div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <i class="fas fa-bars fff"></i>
                 </button>
