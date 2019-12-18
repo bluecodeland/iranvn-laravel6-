@@ -21,11 +21,11 @@
                 ما اینجا هستیم تا به شما کمک کنیم ایده ها و باورهایتان را در فضای مجازی به واقعیت تبدیل کنید و در این راه افتخار می کنیم که متعهد به همکاری و مشارکت دراز مدت با شما باشیم
               </p>
             </div>
-            <div class="row">
-                <div class="col-md-3 text-center"><i class="fab fa-instagram fa-4x"></i></div>
-                <div class="col-md-3 text-center"><i class="fab fa-dev fa-4x"></i></div>
-                <div class="col-md-3 text-center"><i class="fas fa-video fa-4x"></i></div>
-                <div class="col-md-3 text-center"><i class="fas fa-file-code fa-4x"></i></div>
+            <div class="row ">
+                <div class="col-md-3 text-center d-sm-none d-md-block"><i class="fab fa-instagram fa-4x"></i></div>
+                <div class="col-md-3 text-center d-sm-none d-md-block"><i class="fab fa-dev fa-4x"></i></div>
+                <div class="col-md-3 text-center d-sm-none d-md-block"><i class="fas fa-video fa-4x"></i></div>
+                <div class="col-md-3 text-center d-sm-none d-md-block"><i class="fas fa-file-code fa-4x"></i></div>
             </div>
 
           </div>
@@ -37,7 +37,7 @@
             <div class="col-12 py-5">
                 <h1 class="text-center">ویژگی خدمات ما</h1>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-sm-5">
                 <div class="card animated fadeInUp">
                     <img src="image/24-7.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -45,7 +45,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-md-4 animated fadeInUp">
+            <div class="col-md-4 mb-sm-5 animated fadeInUp">
                 <div class="card">
                     <img src="image/bestoffer.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -53,7 +53,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-md-4 animated fadeInUp">
+            <div class="col-md-4  mb-sm-5 animated fadeInUp">
                 <div class="card">
                     <img src="image/fast.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
