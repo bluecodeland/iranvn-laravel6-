@@ -1,4 +1,57 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://cdn.rawgit.com/rastikerdar/sahel-font/v3.3.0/dist/font-face.css);@import url(https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh);/* header */
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh);/* font */
+@font-face {
+    font-family: Sahel;
+    src: url(/fonts/Sahel-FD.eot?a46cbafe8b25629fbd9abc1a7ca73b97);
+    src: url(/fonts/Sahel-FD.eot?a46cbafe8b25629fbd9abc1a7ca73b97?#iefix) format('embedded-opentype'),
+         url(/fonts/Sahel-FD.woff2?d8764bbe94df3218118a34c1f7fb4c3f) format('woff2'),
+         url(/fonts/Sahel-FD.woff?e038dd40617bfe07bcbb4215f7f1f0ce) format('woff'),
+         url(/fonts/Sahel-FD.ttf?915e70ce82ec3fab1f13c76b1c830332) format('truetype');
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: Sahel;
+    src: url(/fonts/Sahel-Bold-FD.eot?0aaebb41d04e32eebfb708c8ad2033ce);
+    src: url(/fonts/Sahel-Bold-FD.eot?0aaebb41d04e32eebfb708c8ad2033ce?#iefix) format('embedded-opentype'),
+         url(/fonts/Sahel-Bold-FD.woff2?31e8577250eb3e3d1975fec2cab061ec) format('woff2'),
+         url(/fonts/Sahel-Bold-FD.woff?a957c738fd77a4110eb78c0ab7a5a7f4) format('woff'),
+         url(/fonts/Sahel-Bold-FD.ttf?3bd2c6e42da9c0dce4622e7d6b677195) format('truetype');
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: Sahel;
+    src: url(/fonts/Sahel-Light-FD.eot?10934b84241b72e19ce21ac4822831ae);
+    src: url(/fonts/Sahel-Light-FD.eot?10934b84241b72e19ce21ac4822831ae?#iefix) format('embedded-opentype'),
+         url(/fonts/Sahel-Light-FD.woff2?9a5da71dc7d7b6369417ffb5adef4419) format('woff2'),
+         url(/fonts/Sahel-Light-FD.woff?5bf81551316ab7ee30044b50dda1bba9) format('woff'),
+         url(/fonts/Sahel-Light-FD.ttf?d224cd62229c18a96ed7e42013bb7cea) format('truetype');
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: Sahel;
+    src: url(/fonts/Sahel-SemiBold-FD.eot?0e0f95e7a7fc32fe52cbdd4c7ed13937);
+    src: url(/fonts/Sahel-SemiBold-FD.eot?0e0f95e7a7fc32fe52cbdd4c7ed13937?#iefix) format('embedded-opentype'),
+         url(/fonts/Sahel-SemiBold-FD.woff2?fb6ed5e1f13947cb77b2aa5542833696) format('woff2'),
+         url(/fonts/Sahel-SemiBold-FD.woff?c08f5465423e99f0582b540743567534) format('woff'),
+         url(/fonts/Sahel-SemiBold-FD.ttf?21f67091ea0c73ba39cc4ef93f6ce3eb) format('truetype');
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: Sahel;
+    src: url(/fonts/Sahel-Black-FD.eot?38758ff0320a59af3f715de7d0f6da8a);
+    src: url(/fonts/Sahel-Black-FD.eot?38758ff0320a59af3f715de7d0f6da8a?#iefix) format('embedded-opentype'),
+         url(/fonts/Sahel-Black-FD.woff2?7901f305b30741928729ff03f9ddec1e) format('woff2'),
+         url(/fonts/Sahel-Black-FD.woff?4cd5cf70387935643a18e8edf25a0e64) format('woff'),
+         url(/fonts/Sahel-Black-FD.ttf?308bed0e7334d4a845b420c993814610) format('truetype');
+    font-weight: 900;
+  }
+/* endFont */
+
+
+/* header */
 /* background-image: url('img/header-bg.jpg');background-position: center center; */
 .headerbg { background-color: #4e4376;
     background:
@@ -3725,6 +3778,936 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
     margin: 0 auto;
     padding:1.7rem;
 }
+
+
+
+
+
+
+
+
+/* 3rd party css */
+
+/* 1.soicalicons */
+@font-face {
+    font-family: 'Socicon';
+    src:  url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.eot?ls8ev');
+    src:  url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.eot?ls8ev#iefix') format('embedded-opentype'),
+      url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.woff2?ls8ev') format('woff2'),
+      url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.ttf?ls8ev') format('truetype'),
+      url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.woff?ls8ev') format('woff'),
+      url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.svg?ls8ev#Socicon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  [class^="socicon-"], [class*=" socicon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Socicon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .socicon-eitaa:before {
+    content: "\E97C";
+  }
+  .socicon-soroush:before {
+    content: "\E97D";
+  }
+  .socicon-bale:before {
+    content: "\E97E";
+  }
+  .socicon-zazzle:before {
+    content: "\E97B";
+  }
+  .socicon-society6:before {
+    content: "\E97A";
+  }
+  .socicon-redbubble:before {
+    content: "\E979";
+  }
+  .socicon-avvo:before {
+    content: "\E978";
+  }
+  .socicon-stitcher:before {
+    content: "\E977";
+  }
+  .socicon-googlehangouts:before {
+    content: "\E974";
+  }
+  .socicon-dlive:before {
+    content: "\E975";
+  }
+  .socicon-vsco:before {
+    content: "\E976";
+  }
+  .socicon-flipboard:before {
+    content: "\E973";
+  }
+  .socicon-ubuntu:before {
+    content: "\E958";
+  }
+  .socicon-artstation:before {
+    content: "\E959";
+  }
+  .socicon-invision:before {
+    content: "\E95A";
+  }
+  .socicon-torial:before {
+    content: "\E95B";
+  }
+  .socicon-collectorz:before {
+    content: "\E95C";
+  }
+  .socicon-seenthis:before {
+    content: "\E95D";
+  }
+  .socicon-googleplaymusic:before {
+    content: "\E95E";
+  }
+  .socicon-debian:before {
+    content: "\E95F";
+  }
+  .socicon-filmfreeway:before {
+    content: "\E960";
+  }
+  .socicon-gnome:before {
+    content: "\E961";
+  }
+  .socicon-itchio:before {
+    content: "\E962";
+  }
+  .socicon-jamendo:before {
+    content: "\E963";
+  }
+  .socicon-mix:before {
+    content: "\E964";
+  }
+  .socicon-sharepoint:before {
+    content: "\E965";
+  }
+  .socicon-tinder:before {
+    content: "\E966";
+  }
+  .socicon-windguru:before {
+    content: "\E967";
+  }
+  .socicon-cdbaby:before {
+    content: "\E968";
+  }
+  .socicon-elementaryos:before {
+    content: "\E969";
+  }
+  .socicon-stage32:before {
+    content: "\E96A";
+  }
+  .socicon-tiktok:before {
+    content: "\E96B";
+  }
+  .socicon-gitter:before {
+    content: "\E96C";
+  }
+  .socicon-letterboxd:before {
+    content: "\E96D";
+  }
+  .socicon-threema:before {
+    content: "\E96E";
+  }
+  .socicon-splice:before {
+    content: "\E96F";
+  }
+  .socicon-metapop:before {
+    content: "\E970";
+  }
+  .socicon-naver:before {
+    content: "\E971";
+  }
+  .socicon-remote:before {
+    content: "\E972";
+  }
+  .socicon-internet:before {
+    content: "\E957";
+  }
+  .socicon-moddb:before {
+    content: "\E94B";
+  }
+  .socicon-indiedb:before {
+    content: "\E94C";
+  }
+  .socicon-traxsource:before {
+    content: "\E94D";
+  }
+  .socicon-gamefor:before {
+    content: "\E94E";
+  }
+  .socicon-pixiv:before {
+    content: "\E94F";
+  }
+  .socicon-myanimelist:before {
+    content: "\E950";
+  }
+  .socicon-blackberry:before {
+    content: "\E951";
+  }
+  .socicon-wickr:before {
+    content: "\E952";
+  }
+  .socicon-spip:before {
+    content: "\E953";
+  }
+  .socicon-napster:before {
+    content: "\E954";
+  }
+  .socicon-beatport:before {
+    content: "\E955";
+  }
+  .socicon-hackerone:before {
+    content: "\E956";
+  }
+  .socicon-hackernews:before {
+    content: "\E946";
+  }
+  .socicon-smashwords:before {
+    content: "\E947";
+  }
+  .socicon-kobo:before {
+    content: "\E948";
+  }
+  .socicon-bookbub:before {
+    content: "\E949";
+  }
+  .socicon-mailru:before {
+    content: "\E94A";
+  }
+  .socicon-gitlab:before {
+    content: "\E945";
+  }
+  .socicon-instructables:before {
+    content: "\E944";
+  }
+  .socicon-portfolio:before {
+    content: "\E943";
+  }
+  .socicon-codered:before {
+    content: "\E940";
+  }
+  .socicon-origin:before {
+    content: "\E941";
+  }
+  .socicon-nextdoor:before {
+    content: "\E942";
+  }
+  .socicon-udemy:before {
+    content: "\E93F";
+  }
+  .socicon-livemaster:before {
+    content: "\E93E";
+  }
+  .socicon-crunchbase:before {
+    content: "\E93B";
+  }
+  .socicon-homefy:before {
+    content: "\E93C";
+  }
+  .socicon-calendly:before {
+    content: "\E93D";
+  }
+  .socicon-realtor:before {
+    content: "\E90F";
+  }
+  .socicon-tidal:before {
+    content: "\E910";
+  }
+  .socicon-qobuz:before {
+    content: "\E911";
+  }
+  .socicon-natgeo:before {
+    content: "\E912";
+  }
+  .socicon-mastodon:before {
+    content: "\E913";
+  }
+  .socicon-unsplash:before {
+    content: "\E914";
+  }
+  .socicon-homeadvisor:before {
+    content: "\E915";
+  }
+  .socicon-angieslist:before {
+    content: "\E916";
+  }
+  .socicon-codepen:before {
+    content: "\E917";
+  }
+  .socicon-slack:before {
+    content: "\E918";
+  }
+  .socicon-openaigym:before {
+    content: "\E919";
+  }
+  .socicon-logmein:before {
+    content: "\E91A";
+  }
+  .socicon-fiverr:before {
+    content: "\E91B";
+  }
+  .socicon-gotomeeting:before {
+    content: "\E91C";
+  }
+  .socicon-aliexpress:before {
+    content: "\E91D";
+  }
+  .socicon-guru:before {
+    content: "\E91E";
+  }
+  .socicon-appstore:before {
+    content: "\E91F";
+  }
+  .socicon-homes:before {
+    content: "\E920";
+  }
+  .socicon-zoom:before {
+    content: "\E921";
+  }
+  .socicon-alibaba:before {
+    content: "\E922";
+  }
+  .socicon-craigslist:before {
+    content: "\E923";
+  }
+  .socicon-wix:before {
+    content: "\E924";
+  }
+  .socicon-redfin:before {
+    content: "\E925";
+  }
+  .socicon-googlecalendar:before {
+    content: "\E926";
+  }
+  .socicon-shopify:before {
+    content: "\E927";
+  }
+  .socicon-freelancer:before {
+    content: "\E928";
+  }
+  .socicon-seedrs:before {
+    content: "\E929";
+  }
+  .socicon-bing:before {
+    content: "\E92A";
+  }
+  .socicon-doodle:before {
+    content: "\E92B";
+  }
+  .socicon-bonanza:before {
+    content: "\E92C";
+  }
+  .socicon-squarespace:before {
+    content: "\E92D";
+  }
+  .socicon-toptal:before {
+    content: "\E92E";
+  }
+  .socicon-gust:before {
+    content: "\E92F";
+  }
+  .socicon-ask:before {
+    content: "\E930";
+  }
+  .socicon-trulia:before {
+    content: "\E931";
+  }
+  .socicon-loomly:before {
+    content: "\E932";
+  }
+  .socicon-ghost:before {
+    content: "\E933";
+  }
+  .socicon-upwork:before {
+    content: "\E934";
+  }
+  .socicon-fundable:before {
+    content: "\E935";
+  }
+  .socicon-booking:before {
+    content: "\E936";
+  }
+  .socicon-googlemaps:before {
+    content: "\E937";
+  }
+  .socicon-zillow:before {
+    content: "\E938";
+  }
+  .socicon-niconico:before {
+    content: "\E939";
+  }
+  .socicon-toneden:before {
+    content: "\E93A";
+  }
+  .socicon-augment:before {
+    content: "\E908";
+  }
+  .socicon-bitbucket:before {
+    content: "\E909";
+  }
+  .socicon-fyuse:before {
+    content: "\E90A";
+  }
+  .socicon-yt-gaming:before {
+    content: "\E90B";
+  }
+  .socicon-sketchfab:before {
+    content: "\E90C";
+  }
+  .socicon-mobcrush:before {
+    content: "\E90D";
+  }
+  .socicon-microsoft:before {
+    content: "\E90E";
+  }
+  .socicon-pandora:before {
+    content: "\E907";
+  }
+  .socicon-messenger:before {
+    content: "\E906";
+  }
+  .socicon-gamewisp:before {
+    content: "\E905";
+  }
+  .socicon-bloglovin:before {
+    content: "\E904";
+  }
+  .socicon-tunein:before {
+    content: "\E903";
+  }
+  .socicon-gamejolt:before {
+    content: "\E901";
+  }
+  .socicon-trello:before {
+    content: "\E902";
+  }
+  .socicon-spreadshirt:before {
+    content: "\E900";
+  }
+  .socicon-500px:before {
+    content: "\E000";
+  }
+  .socicon-8tracks:before {
+    content: "\E001";
+  }
+  .socicon-airbnb:before {
+    content: "\E002";
+  }
+  .socicon-alliance:before {
+    content: "\E003";
+  }
+  .socicon-amazon:before {
+    content: "\E004";
+  }
+  .socicon-amplement:before {
+    content: "\E005";
+  }
+  .socicon-android:before {
+    content: "\E006";
+  }
+  .socicon-angellist:before {
+    content: "\E007";
+  }
+  .socicon-apple:before {
+    content: "\E008";
+  }
+  .socicon-appnet:before {
+    content: "\E009";
+  }
+  .socicon-baidu:before {
+    content: "\E00A";
+  }
+  .socicon-bandcamp:before {
+    content: "\E00B";
+  }
+  .socicon-battlenet:before {
+    content: "\E00C";
+  }
+  .socicon-mixer:before {
+    content: "\E00D";
+  }
+  .socicon-bebee:before {
+    content: "\E00E";
+  }
+  .socicon-bebo:before {
+    content: "\E00F";
+  }
+  .socicon-behance:before {
+    content: "\E010";
+  }
+  .socicon-blizzard:before {
+    content: "\E011";
+  }
+  .socicon-blogger:before {
+    content: "\E012";
+  }
+  .socicon-buffer:before {
+    content: "\E013";
+  }
+  .socicon-chrome:before {
+    content: "\E014";
+  }
+  .socicon-coderwall:before {
+    content: "\E015";
+  }
+  .socicon-curse:before {
+    content: "\E016";
+  }
+  .socicon-dailymotion:before {
+    content: "\E017";
+  }
+  .socicon-deezer:before {
+    content: "\E018";
+  }
+  .socicon-delicious:before {
+    content: "\E019";
+  }
+  .socicon-deviantart:before {
+    content: "\E01A";
+  }
+  .socicon-diablo:before {
+    content: "\E01B";
+  }
+  .socicon-digg:before {
+    content: "\E01C";
+  }
+  .socicon-discord:before {
+    content: "\E01D";
+  }
+  .socicon-disqus:before {
+    content: "\E01E";
+  }
+  .socicon-douban:before {
+    content: "\E01F";
+  }
+  .socicon-draugiem:before {
+    content: "\E020";
+  }
+  .socicon-dribbble:before {
+    content: "\E021";
+  }
+  .socicon-drupal:before {
+    content: "\E022";
+  }
+  .socicon-ebay:before {
+    content: "\E023";
+  }
+  .socicon-ello:before {
+    content: "\E024";
+  }
+  .socicon-endomodo:before {
+    content: "\E025";
+  }
+  .socicon-envato:before {
+    content: "\E026";
+  }
+  .socicon-etsy:before {
+    content: "\E027";
+  }
+  .socicon-facebook:before {
+    content: "\E028";
+  }
+  .socicon-feedburner:before {
+    content: "\E029";
+  }
+  .socicon-filmweb:before {
+    content: "\E02A";
+  }
+  .socicon-firefox:before {
+    content: "\E02B";
+  }
+  .socicon-flattr:before {
+    content: "\E02C";
+  }
+  .socicon-flickr:before {
+    content: "\E02D";
+  }
+  .socicon-formulr:before {
+    content: "\E02E";
+  }
+  .socicon-forrst:before {
+    content: "\E02F";
+  }
+  .socicon-foursquare:before {
+    content: "\E030";
+  }
+  .socicon-friendfeed:before {
+    content: "\E031";
+  }
+  .socicon-github:before {
+    content: "\E032";
+  }
+  .socicon-goodreads:before {
+    content: "\E033";
+  }
+  .socicon-google:before {
+    content: "\E034";
+  }
+  .socicon-googlescholar:before {
+    content: "\E035";
+  }
+  .socicon-googlegroups:before {
+    content: "\E036";
+  }
+  .socicon-googlephotos:before {
+    content: "\E037";
+  }
+  .socicon-googleplus:before {
+    content: "\E038";
+  }
+  .socicon-grooveshark:before {
+    content: "\E039";
+  }
+  .socicon-hackerrank:before {
+    content: "\E03A";
+  }
+  .socicon-hearthstone:before {
+    content: "\E03B";
+  }
+  .socicon-hellocoton:before {
+    content: "\E03C";
+  }
+  .socicon-heroes:before {
+    content: "\E03D";
+  }
+  .socicon-smashcast:before {
+    content: "\E03E";
+  }
+  .socicon-horde:before {
+    content: "\E03F";
+  }
+  .socicon-houzz:before {
+    content: "\E040";
+  }
+  .socicon-icq:before {
+    content: "\E041";
+  }
+  .socicon-identica:before {
+    content: "\E042";
+  }
+  .socicon-imdb:before {
+    content: "\E043";
+  }
+  .socicon-instagram:before {
+    content: "\E044";
+  }
+  .socicon-issuu:before {
+    content: "\E045";
+  }
+  .socicon-istock:before {
+    content: "\E046";
+  }
+  .socicon-itunes:before {
+    content: "\E047";
+  }
+  .socicon-keybase:before {
+    content: "\E048";
+  }
+  .socicon-lanyrd:before {
+    content: "\E049";
+  }
+  .socicon-lastfm:before {
+    content: "\E04A";
+  }
+  .socicon-line:before {
+    content: "\E04B";
+  }
+  .socicon-linkedin:before {
+    content: "\E04C";
+  }
+  .socicon-livejournal:before {
+    content: "\E04D";
+  }
+  .socicon-lyft:before {
+    content: "\E04E";
+  }
+  .socicon-macos:before {
+    content: "\E04F";
+  }
+  .socicon-mail:before {
+    content: "\E050";
+  }
+  .socicon-medium:before {
+    content: "\E051";
+  }
+  .socicon-meetup:before {
+    content: "\E052";
+  }
+  .socicon-mixcloud:before {
+    content: "\E053";
+  }
+  .socicon-modelmayhem:before {
+    content: "\E054";
+  }
+  .socicon-mumble:before {
+    content: "\E055";
+  }
+  .socicon-myspace:before {
+    content: "\E056";
+  }
+  .socicon-newsvine:before {
+    content: "\E057";
+  }
+  .socicon-nintendo:before {
+    content: "\E058";
+  }
+  .socicon-npm:before {
+    content: "\E059";
+  }
+  .socicon-odnoklassniki:before {
+    content: "\E05A";
+  }
+  .socicon-openid:before {
+    content: "\E05B";
+  }
+  .socicon-opera:before {
+    content: "\E05C";
+  }
+  .socicon-outlook:before {
+    content: "\E05D";
+  }
+  .socicon-overwatch:before {
+    content: "\E05E";
+  }
+  .socicon-patreon:before {
+    content: "\E05F";
+  }
+  .socicon-paypal:before {
+    content: "\E060";
+  }
+  .socicon-periscope:before {
+    content: "\E061";
+  }
+  .socicon-persona:before {
+    content: "\E062";
+  }
+  .socicon-pinterest:before {
+    content: "\E063";
+  }
+  .socicon-play:before {
+    content: "\E064";
+  }
+  .socicon-player:before {
+    content: "\E065";
+  }
+  .socicon-playstation:before {
+    content: "\E066";
+  }
+  .socicon-pocket:before {
+    content: "\E067";
+  }
+  .socicon-qq:before {
+    content: "\E068";
+  }
+  .socicon-quora:before {
+    content: "\E069";
+  }
+  .socicon-raidcall:before {
+    content: "\E06A";
+  }
+  .socicon-ravelry:before {
+    content: "\E06B";
+  }
+  .socicon-reddit:before {
+    content: "\E06C";
+  }
+  .socicon-renren:before {
+    content: "\E06D";
+  }
+  .socicon-researchgate:before {
+    content: "\E06E";
+  }
+  .socicon-residentadvisor:before {
+    content: "\E06F";
+  }
+  .socicon-reverbnation:before {
+    content: "\E070";
+  }
+  .socicon-rss:before {
+    content: "\E071";
+  }
+  .socicon-sharethis:before {
+    content: "\E072";
+  }
+  .socicon-skype:before {
+    content: "\E073";
+  }
+  .socicon-slideshare:before {
+    content: "\E074";
+  }
+  .socicon-smugmug:before {
+    content: "\E075";
+  }
+  .socicon-snapchat:before {
+    content: "\E076";
+  }
+  .socicon-songkick:before {
+    content: "\E077";
+  }
+  .socicon-soundcloud:before {
+    content: "\E078";
+  }
+  .socicon-spotify:before {
+    content: "\E079";
+  }
+  .socicon-stackexchange:before {
+    content: "\E07A";
+  }
+  .socicon-stackoverflow:before {
+    content: "\E07B";
+  }
+  .socicon-starcraft:before {
+    content: "\E07C";
+  }
+  .socicon-stayfriends:before {
+    content: "\E07D";
+  }
+  .socicon-steam:before {
+    content: "\E07E";
+  }
+  .socicon-storehouse:before {
+    content: "\E07F";
+  }
+  .socicon-strava:before {
+    content: "\E080";
+  }
+  .socicon-streamjar:before {
+    content: "\E081";
+  }
+  .socicon-stumbleupon:before {
+    content: "\E082";
+  }
+  .socicon-swarm:before {
+    content: "\E083";
+  }
+  .socicon-teamspeak:before {
+    content: "\E084";
+  }
+  .socicon-teamviewer:before {
+    content: "\E085";
+  }
+  .socicon-technorati:before {
+    content: "\E086";
+  }
+  .socicon-telegram:before {
+    content: "\E087";
+  }
+  .socicon-tripadvisor:before {
+    content: "\E088";
+  }
+  .socicon-tripit:before {
+    content: "\E089";
+  }
+  .socicon-triplej:before {
+    content: "\E08A";
+  }
+  .socicon-tumblr:before {
+    content: "\E08B";
+  }
+  .socicon-twitch:before {
+    content: "\E08C";
+  }
+  .socicon-twitter:before {
+    content: "\E08D";
+  }
+  .socicon-uber:before {
+    content: "\E08E";
+  }
+  .socicon-ventrilo:before {
+    content: "\E08F";
+  }
+  .socicon-viadeo:before {
+    content: "\E090";
+  }
+  .socicon-viber:before {
+    content: "\E091";
+  }
+  .socicon-viewbug:before {
+    content: "\E092";
+  }
+  .socicon-vimeo:before {
+    content: "\E093";
+  }
+  .socicon-vine:before {
+    content: "\E094";
+  }
+  .socicon-vkontakte:before {
+    content: "\E095";
+  }
+  .socicon-warcraft:before {
+    content: "\E096";
+  }
+  .socicon-wechat:before {
+    content: "\E097";
+  }
+  .socicon-weibo:before {
+    content: "\E098";
+  }
+  .socicon-whatsapp:before {
+    content: "\E099";
+  }
+  .socicon-wikipedia:before {
+    content: "\E09A";
+  }
+  .socicon-windows:before {
+    content: "\E09B";
+  }
+  .socicon-wordpress:before {
+    content: "\E09C";
+  }
+  .socicon-wykop:before {
+    content: "\E09D";
+  }
+  .socicon-xbox:before {
+    content: "\E09E";
+  }
+  .socicon-xing:before {
+    content: "\E09F";
+  }
+  .socicon-yahoo:before {
+    content: "\E0A0";
+  }
+  .socicon-yammer:before {
+    content: "\E0A1";
+  }
+  .socicon-yandex:before {
+    content: "\E0A2";
+  }
+  .socicon-yelp:before {
+    content: "\E0A3";
+  }
+  .socicon-younow:before {
+    content: "\E0A4";
+  }
+  .socicon-youtube:before {
+    content: "\E0A5";
+  }
+  .socicon-zapier:before {
+    content: "\E0A6";
+  }
+  .socicon-zerply:before {
+    content: "\E0A7";
+  }
+  .socicon-zomato:before {
+    content: "\E0A8";
+  }
+  .socicon-zynga:before {
+    content: "\E0A9";
+  }
+  /* end 1.social icon */
 @charset "UTF-8";
 
 /*!

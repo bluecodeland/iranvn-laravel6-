@@ -26,21 +26,21 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    {{-- <link rel="dns-prefetch" href="//fonts.gstatic.com"> --}}
+    {{-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> --}}
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <!-- Icon font -->
-    <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
+    {{-- <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh"> --}}
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
 
-    <!-- Modernizr JS -->
+    {{-- <!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
-    <![endif]-->
+    <![endif]--> --}}
     {{-- google --}}
         <meta name="google-site-verification" content="E5c0y_lgHChVF0Qzcby39di_NrESJ9ikezcnDNitH58" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -124,10 +124,15 @@
         </main>
     </div>
         <!-- Copyright -->
-        <div class="text-center pblue py-1 fixed-bottom">
-            <div class="text-center py-2 fff">© 2019 Copyright<a href="https://iranvn.ir"> Iran Virtual Network</a></div>
-            <a href="https://ble.im/iranvn" class="fff p-2"><i class="socicon-bale"></i></a>
-            <a href="https://www.instagram.com/iranvn.ir/" class="fff p-2"><i class="socicon-instagram"></i></a>
+        <div class=" pblue pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                            <div class="fff text-center">© 2019 Copyright<a href="https://iranvn.ir"> Iran Virtual Network</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Copyright -->
 

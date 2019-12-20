@@ -21,11 +21,13 @@
                 ما اینجا هستیم تا به شما کمک کنیم ایده ها و باورهایتان را در فضای مجازی به واقعیت تبدیل کنید و در این راه افتخار می کنیم که متعهد به همکاری و مشارکت دراز مدت با شما باشیم
               </p>
             </div>
-            <div class="row d-xs-none ">
-                <div class="col-md-3 text-center d-sm-none d-md-block d-none d-sm-block"><i class="fab fa-instagram fa-4x"></i></div>
-                <div class="col-md-3 text-center d-sm-none d-md-block d-none d-sm-block"><i class="fab fa-dev fa-4x"></i></div>
-                <div class="col-md-3 text-center d-sm-none d-md-block d-none d-sm-block"><i class="fas fa-video fa-4x"></i></div>
-                <div class="col-md-3 text-center d-sm-none d-md-block d-none d-sm-block"><i class="fas fa-file-code fa-4x"></i></div>
+            <div class="row ">
+                <div class="col-12 text-center">
+                        <div class="d-inline p-4"><i class="fab fa-instagram fa-4x"></i></div>
+                        <div class="d-inline p-4"><i class="fab fa-dev fa-4x"></i></div>
+                        <div class="d-inline p-4"><i class="fas fa-video fa-4x"></i></div>
+                        <div class="d-inline p-4"><i class="fas fa-file-code fa-4x"></i></div>
+                </div>
             </div>
 
           </div>
@@ -63,9 +65,6 @@
             </div>
         </div>
     </div>
-<div class="purple mt-5">
-    251  251 تست تست
-<br>
-</div>
+
 </div>
 @endsection
