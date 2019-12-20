@@ -130,6 +130,11 @@
                     <div class="col-md-12">
                             <div class="fff text-center">© 2019 Copyright<a href="https://iranvn.ir"> Iran Virtual Network</a>
                             </div>
+
+                    </div>
+                    <div class="col-md-12 text-center">
+                            <a href="https://ble.im/iranvn" class="fff"><i class="socicon-bale"></i></a>
+                            <a href="https://www.instagram.com/iranvn.ir/" class="fff"><i class="socicon-instagram"></i></a>
                     </div>
                 </div>
             </div>
