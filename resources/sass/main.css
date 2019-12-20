@@ -3717,7 +3717,7 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
 /* shaped */
 .card  img {
     width: 180px;
-    height: 150px;
+    height: 180px;
     margin: 0 auto;
     padding:1.7rem;
 }

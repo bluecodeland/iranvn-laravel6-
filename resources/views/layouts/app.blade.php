@@ -16,6 +16,7 @@
     <meta name="twitter:image" content="" />
     <meta name="twitter:url" content="" />
     <meta name="twitter:card" content="" />
+    <meta http-equiv="content-language" content="fa-ir" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
