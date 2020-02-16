@@ -30,6 +30,8 @@ Route::get('/git', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/note', 'HomeController@note')->name('note');
+
 
 Auth::routes();
 
