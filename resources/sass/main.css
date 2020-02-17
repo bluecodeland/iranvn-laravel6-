@@ -87,7 +87,9 @@
     margin-top: -10px;
     letter-spacing: 0.2em;
 }
-
+.rtl{
+    direction: rtl;
+}
 
   /* colors */
   a {
