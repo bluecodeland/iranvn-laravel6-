@@ -53,14 +53,14 @@
 
 /* header */
 /* background-image: url('img/header-bg.jpg');background-position: center center; */
-.headerbg { background-color: #4e4376;
+.headerbg { background-color: #360d6d;
     background:
-    linear-gradient(to bottom right, #4e4376 50%, transparent 50.5%) no-repeat bottom,
+    linear-gradient(to bottom right, #360d6d 50%, transparent 50.5%) no-repeat bottom,
     /* bottom part */
-    linear-gradient(0deg, #4e4376, #4e4376) no-repeat top;
+    linear-gradient(0deg, #360d6d, #360d6d) no-repeat top;
   /* top portion */
   padding-bottom: 3em;
-  background-size: 100% 7em, 100% calc(100% - 7em)
+  background-size: 100% 7.1em, 100% calc(100% - 7em)
     /* background:
     radial-gradient(black 3px, transparent 4px),
     radial-gradient(black 3px, transparent 4px),

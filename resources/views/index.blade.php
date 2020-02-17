@@ -24,17 +24,17 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://picsum.photos/id/210/1280/400" class="d-block w-100" alt="...">
+                <img src="image/wp-banner.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  <h5>راهکارهای مبتنی بر وردپرس</h5>
+                  <p>در کوتاه ترین زمان ، سیستم مبتنی بر مدیریت محتوای وردپرس را برای شما راه اندازی می کنیم</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="https://picsum.photos/id/220/1280/400" class="d-block w-100" alt="...">
+                <img src="image/laravel-banner.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <h5>پیاده سازی سایت حرفه ای با لاراول</h5>
+                  <p>استفاد از یکی از قدترتمندترین تکنولوژی های سمت سرور برای ساخت نرم افزار تحت وب اختصاصی</p>
                 </div>
               </div>
               <div class="carousel-item">

@@ -55,7 +55,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light shadow-sm pblue fff">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm purple fff">
             <div class="container">
                 <div>
                 <a class="navbar-brand" href="{{ url('/') }}">
