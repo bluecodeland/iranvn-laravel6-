@@ -2,20 +2,23 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
+    <link rel="dns-prefetch" href="//iranvn.ir">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="dns-prefetch" href="//www.w3.org">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
+    <meta name="description" content="در شبکه مجازی ایران هر گونه نیازی که در فضای مجازی دارید که شامل طراحی سایت ، نرم افزار، پوستر، کلیپ، بنر و ... را برطرف کنید">
 	<meta name="keywords" content="" />
 	<meta name="author" content="iranvn.ir" />
     <!-- Facebook and Twitter integration -->
-    <meta property="og:title" content=""/>
+    <meta property="og:title" content="شبکه مجازی ایران"/>
     <meta property="og:image" content=""/>
-    <meta property="og:url" content=""/>
-    <meta property="og:site_name" content=""/>
-    <meta property="og:description" content=""/>
-    <meta name="twitter:title" content="" />
+    <meta property="og:url" content="iranvn.ir"/>
+    <meta property="og:site_name" content="Iran Virtual Network"/>
+    <meta property="og:description" content="سامانه یک پارچه خدمات فضای مجازی"/>
+    <meta name="twitter:title" content="شبکه مجازی ایران" />
     <meta name="twitter:image" content="" />
-    <meta name="twitter:url" content="" />
-    <meta name="twitter:card" content="" />
+    <meta name="twitter:url" content="iranvn.ir" />
+    <meta name="twitter:card" content="iranvn.ir" />
     <meta http-equiv="content-language" content="fa-ir" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
