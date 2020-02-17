@@ -112,15 +112,21 @@
 
                             <!--Grid column-->
                             <div class="col-md-9 mb-md-0 mb-5">
-                                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
+                                <form id="contact-form" name="contact-form" action="/contactus" method="POST">
+                                    @csrf
                                     <!--Grid row-->
                                     <div class="row">
 
                                         <!--Grid column-->
                                         <div class="col-md-6">
                                             <div class="md-form mb-0">
-                                                <input type="text" id="name" name="name" class="form-control">
+                                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+
+                                                @error('name')
+                                                    <span class="invalid-feedback" role="alert">
+                                                        <strong>{{ $message }}</strong>
+                                                    </span>
+                                                @enderror
                                                 <label for="name" class="">نام شما</label>
                                             </div>
                                         </div>
@@ -129,8 +135,29 @@
                                         <!--Grid column-->
                                         <div class="col-md-6">
                                             <div class="md-form mb-0">
-                                                <input type="text" id="email" name="email" class="form-control">
+                                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+
+                                                @error('email')
+                                                    <span class="invalid-feedback" role="alert">
+                                                        <strong>{{ $message }}</strong>
+                                                    </span>
+                                                @enderror
                                                 <label for="email" class="">آدرس ایمیل شما</label>
+                                            </div>
+                                        </div>
+                                        <!--Grid column-->
+
+                                         <!--Grid column-->
+                                         <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <input id="phone" type="phone" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required autocomplete="phone">
+
+                                                @error('phone')
+                                                    <span class="invalid-feedback" role="alert">
+                                                        <strong>{{ $message }}</strong>
+                                                    </span>
+                                                @enderror
+                                                <label for="phone" class="">شماره تلفن همراه شما</label>
                                             </div>
                                         </div>
                                         <!--Grid column-->
@@ -142,7 +169,13 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="md-form mb-0">
-                                                <input type="text" id="subject" name="subject" class="form-control">
+                                                <input id="subject" type="text" class="form-control @error('subject') is-invalid @enderror" name="subject" value="{{ old('subject') }}" required autocomplete="subject" autofocus>
+
+                                                @error('subject')
+                                                    <span class="invalid-feedback" role="alert">
+                                                        <strong>{{ $message }}</strong>
+                                                    </span>
+                                                @enderror
                                                 <label for="subject" class="">عنوان پیام</label>
                                             </div>
                                         </div>
@@ -156,7 +189,13 @@
                                         <div class="col-md-12">
 
                                             <div class="md-form">
-                                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                                <textarea id="text" type="text" class="form-control md-textarea @error('text') is-invalid @enderror" name="text" value="{{ old('text') }}" required autocomplete="text" autofocus></textarea>
+
+                                                @error('text')
+                                                    <span class="invalid-feedback" role="alert">
+                                                        <strong>{{ $message }}</strong>
+                                                    </span>
+                                                @enderror
                                                 <label for="message">متن پیام</label>
                                             </div>
 

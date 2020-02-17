@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::get('/git', function () {
     return view('git');
 });
+Route::post('contactus', ['as'=>'contactus.store','uses'=>'ContactController@create']);
 
 // Route::get('/{fa}', function ($locale) {
 //     App::setLocale($locale);
