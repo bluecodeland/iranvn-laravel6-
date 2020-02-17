@@ -79,7 +79,10 @@
 /* .specials { background-color: darkorange; min-height: 400px; padding-top: 1rem;
 
 } */
-
+/* slider */
+.slider-border img{
+    border-radius: 1.4rem;
+}
 /* margins */
 .ma {
     margin-top: -25px;
