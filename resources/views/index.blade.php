@@ -169,7 +169,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="md-form mb-0">
-                                                <input id="subject" type="text" class="form-control @error('subject') is-invalid @enderror" name="subject" value="{{ old('subject') }}" required autocomplete="subject" autofocus>
+                                                <input id="subject" type="text" class="form-control @error('subject') is-invalid @enderror" name="subject" value="{{ old('subject') }}" required autocomplete="subject">
 
                                                 @error('subject')
                                                     <span class="invalid-feedback" role="alert">
@@ -189,7 +189,7 @@
                                         <div class="col-md-12">
 
                                             <div class="md-form">
-                                                <textarea id="text" type="text" class="form-control md-textarea @error('text') is-invalid @enderror" name="text" value="{{ old('text') }}" required autocomplete="text" autofocus></textarea>
+                                                <textarea id="text" type="text" class="form-control md-textarea @error('text') is-invalid @enderror" name="text" value="{{ old('text') }}" required autocomplete="text"></textarea>
 
                                                 @error('text')
                                                     <span class="invalid-feedback" role="alert">
